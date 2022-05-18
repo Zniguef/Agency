@@ -307,6 +307,12 @@ body {
   }
 }
 
+.introduction-text span.design {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.introduction-text span,
 .introduction-text h1 span {
   color: var(--main-color);
 }
@@ -489,6 +495,7 @@ body {
   border: 1px solid #ccc;
   margin: 5px;
   cursor: pointer;
+  object-fit: cover;
 }
 
 .popup-overlay {
